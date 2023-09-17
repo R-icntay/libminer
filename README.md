@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/R-icntay/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/R-icntay/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to show you the number of packages installed in
@@ -28,10 +30,10 @@ library(libminer)
 
 ## basic example code
 lib_summary()
-#>                                                                   Library
-#> 1                                      C:/Program Files/R/R-4.3.0/library
-#> 2                       C:/Users/homeuser/AppData/Local/R/win-library/4.3
-#> 3 C:/Users/homeuser/AppData/Local/Temp/RtmpSEZglt/temp_libpath4b9cbad27ff
+#>                                                                    Library
+#> 1                                       C:/Program Files/R/R-4.3.0/library
+#> 2                        C:/Users/homeuser/AppData/Local/R/win-library/4.3
+#> 3 C:/Users/homeuser/AppData/Local/Temp/RtmpSEZglt/temp_libpath4b9c1b6a2b9e
 #>   n_packages
 #> 1         30
 #> 2        146
@@ -39,10 +41,10 @@ lib_summary()
 
 # Also calculate the sizes
 lib_summary(sizes = TRUE)
-#>                                                                   Library
-#> 1                                      C:/Program Files/R/R-4.3.0/library
-#> 2                       C:/Users/homeuser/AppData/Local/R/win-library/4.3
-#> 3 C:/Users/homeuser/AppData/Local/Temp/RtmpSEZglt/temp_libpath4b9cbad27ff
+#>                                                                    Library
+#> 1                                       C:/Program Files/R/R-4.3.0/library
+#> 2                        C:/Users/homeuser/AppData/Local/R/win-library/4.3
+#> 3 C:/Users/homeuser/AppData/Local/Temp/RtmpSEZglt/temp_libpath4b9c1b6a2b9e
 #>   n_packages  lib_size
 #> 1         30  68685145
 #> 2        146 222046885

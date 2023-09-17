@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # libminer
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/R-icntay/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/R-icntay/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to show you the number of packages installed in your computer and their respective sizes.
