@@ -1,6 +1,8 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+This package was built as part of the [Fundamentals of Package Development](https://posit-conf-2023.github.io/pkg-dev/create-pkg-and-metadata.html#lay-the-foundations) workshop in posit::conf(2023).
+
 # libminer
 
 <!-- badges: start -->
